@@ -1,7 +1,7 @@
 import React from "react";
 import io from "socket.io-client";
 
-const socket = io.connect();
+const socket = io.connect("http://localhost:4000");
 
 export default function App(props) {
 	// socket.emit("join", "class1");
