@@ -10,6 +10,9 @@ app.use(cors());
 
 app.use(express.static(path.join(__dirname, "client/build")));
 
+app.get("/", (req, res) => res.json("hi"));
+io.origins("*:*");
+
 io.on("connection", (socket) => {
 	users++;
 	console.log("total live users: " + users);
