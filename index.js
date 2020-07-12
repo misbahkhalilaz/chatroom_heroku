@@ -30,4 +30,4 @@ app.get("*", (req, res) => {
 	res.sendFile(path.join(__dirname + "/client/build/index.html"));
 });
 
-app.listen(4000, () => console.log("4000"));
+app.listen(process.env.PORT || 4000, () => console.log("4000"));
