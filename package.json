@@ -1,0 +1,25 @@
+{
+	"name": "chatroom_heroku",
+	"version": "1.0.0",
+	"description": "frontend + backend on same heroku dyno.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"heroku-postbuild": "cd client && npm install && npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/misbahkhalilaz/chatroom_heroku.git"
+	},
+	"author": "Misbah Khalil",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/misbahkhalilaz/chatroom_heroku/issues"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"socket.io": "^2.3.0"
+	}
+}

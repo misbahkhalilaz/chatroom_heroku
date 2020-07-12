@@ -1,0 +1,43 @@
+{
+	"name": "chatroom_frontend",
+	"version": "1.0.0",
+	"description": "Chatroom front-end using React, Readux, Socket.io, React-Router, React-Bootstrap.",
+	"main": "index.js",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/misbahkhalilaz/chatroom_frontend.git"
+	},
+	"keywords": [
+		"ReactJS",
+		"MERN",
+		"ChatRoom"
+	],
+	"author": "Misbah Khalil",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/misbahkhalilaz/chatroom_frontend/issues"
+	},
+	"dependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-scripts": "^3.4.1",
+		"socket.io-client": "^2.3.0"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"proxy": "http://localhost:4000"
+}
