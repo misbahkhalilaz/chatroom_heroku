@@ -4,7 +4,6 @@
 	"description": "Chatroom front-end using React, Readux, Socket.io, React-Router, React-Bootstrap.",
 	"main": "index.js",
 	"scripts": {
-		"start": "react-scripts start",
 		"build": "react-scripts build"
 	},
 	"repository": {
